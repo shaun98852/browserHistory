@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+}
+.upperSection {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .upperSection {
+    justify-content: space-around;
+  }
+}
+
+.inputBox {
+  background-color: #2850a7;
+  border-style: none;
+  height: 45px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding-left: 10px;
+  border-color: #6697ff;
+  border-style: solid;
+  border-width: 0.5px;
+  outline: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .inputBox {
+    width: 400px;
+  }
+}
+
+.historyImage {
+  height: 3vh;
+}
+
+.searchImage {
+  background-color: #2850a7;
+  border-color: #6697ff;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-right: 1px;
+  padding: 8px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .searchContainer {
+  }
+}
+.LowerSection {
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.emptyHistory {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: roboto;
+  color: #64748b;
+  text-align: center;
+}
+
+.emptyHistoryContainer {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-container {
+  padding: 30px;
+  background-color: green;
+}
+.historyList {
+  margin-top: 20px;
+  background-size: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  /* background-color: green; */
+  /* box-shadow: 0px 2px 2px 2px #64748b; */
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.ulList {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .listItem {
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .firstBox {
+    display: flex;
+  }
+}
+.time {
+  font-family: roboto;
+  color: #64748b;
+  font-weight: 450;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    align-self: center;
+    margin-right: 20px;
+  }
+}
+
+.logoContents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+}
+
+@media screen and (min-width: 768px) {
+  .logoContents {
+    margin-top: 0px;
+  }
+}
+
+.imageAndTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageSize {
+  height: 4vh;
+  margin-right: 15px;
+}
+.websiteTexts {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .websiteTexts {
+    flex-direction: row;
+  }
+}
+
+.website {
+  font-family: roboto;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: -15px;
+}
+
+@media screen and (min-width: 768px) {
+  .website {
+    margin-right: 5px;
+  }
+}
+
+.websiteUrl {
+  color: #64748b;
+  font-family: roboto;
+  font-weight: 450;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-style: none;
+}
